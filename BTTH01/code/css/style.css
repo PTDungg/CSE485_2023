@@ -29,6 +29,8 @@ body{
 .my-title{
     overflow-y: hidden;
 }
-
+li a .nav-link {
+    float: left;
+}
 
 

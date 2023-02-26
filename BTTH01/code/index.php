@@ -34,15 +34,17 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="./">ELEMENTS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./login.php">Đăng nhập</a>
-                    </li>
+                   
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Nội dung cần tìm" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Tìm</button>
                 </form>
             </div>
+        </div>
+        <div class="header-buttons">
+            <a href="/login.php" class="btn-login">Đăng nhập</a>
+            <a href="#" class="btn-cart">Giỏ hàng (0)</a>
         </div>
     </nav>
 
