@@ -34,17 +34,19 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="./">ELEMENTS</a>
                     </li>
-                   
+
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Nội dung cần tìm" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Tìm</button>
+                    <button class="btn btn-outline-success" type="submit"> <img src="images/login.png" width="20" height="20"> </button>
+
                 </form>
             </div>
         </div>
         <div class="header-buttons">
-            <a href="/login.php" class="btn-login">Đăng nhập</a>
-            <a href="#" class="btn-cart">Giỏ hàng (0)</a>
+            <a href="login.php" class="btn-login"><img src="images/user.png" width="27" height="27">
+        </div>
+          <div class="header-buttons"></div>  </a>  <a href="#" class="btn-cart"><img src="images/shopping.png" width="30" height="30"></a>
         </div>
     </nav>
 
@@ -122,6 +124,7 @@
         </div>
 
         <div class="col-sm-3">
+
             <div class="card mb-2" style="width: 100%;">
                 <img src="images/songs/noitinhyeubatdau.jpg" class="card-img-top" alt="...">
                 <div class="card-body">

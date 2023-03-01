@@ -26,14 +26,9 @@
                     <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="./">Trang chủ</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" href="./login.php">Đăng nhập</a>
-                    </li>
+
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Nội dung cần tìm" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Tìm</button>
-                </form>
+
                 </div>
             </div>
         </nav>
@@ -62,7 +57,7 @@
                                 <span class="input-group-text" id="txtPass"><i class="fas fa-key"></i></span>
                                 <input type="text" class="form-control" placeholder="password" >
                             </div>
-                            
+
                             <div class="row align-items-center remember">
                                 <input type="checkbox">Remember Me
                             </div>
