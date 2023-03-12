@@ -43,9 +43,8 @@ li a .nav-link {
     display: inline-block;
     width: 200px;
     height: 200px;
-    margin: 90px;
-    margin-top: 50px;
-    padding: top 20px;
+    margin: 50px 100px 100px;
+    padding:  10px;
 }
 .nav-item{
     margin: 20px;

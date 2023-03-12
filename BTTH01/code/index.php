@@ -26,7 +26,7 @@
                         <a class="nav-link active" aria-current="page" href="./">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./">SHOP</a>
+                        <a class="nav-link active" aria-current="page" href="./shop.php">SHOP</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="./">PROJECT</a>
@@ -58,13 +58,13 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/slideshow/slide01.jpg" class="d-block w-100" alt="...">
+                <img src="./images/slideshow/1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="images/slideshow/slide02.jpg" class="d-block w-100" alt="...">
+                <img src="images/slideshow/2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="images/slideshow/slide03.jpg" class="d-block w-100" alt="...">
+                <img src="images/slideshow/3.png" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -96,66 +96,58 @@
         </div>
     </div>
     <div class="col-xxl-3 col-xl-4 col-md-6 col-12 learts-mb-30   item ">
-        <div class="sale-banner3-1">
-            <div class="image"><img src="images/banner/banner1.png" alt=""></div>
-            <div class="content">
-                <span class="special-title">Spring sale</span>
-                <h3 class="title">Sale up to 10% all</h3>
-                <a href="#" class="link">SHOP NOW</a>
-            </div>
+        <div class="category-banner3">
+            <a href="index.php" class="inner">
+                <div class="image"><img src="images/banner/1.png" width="300" height="300" alt=""></div>
+                <div class="content">
+                    <h3 class="title">Classic<span class="number"></span></h3>
+                </div>
+            </a>
         </div>
     </div>
     <div class="col-xxl-3 col-xl-4 col-md-6 col-12 learts-mb-30  item">
         <div class="category-banner3">
             <a href="index.php" class="inner">
-                <div class="image"><img src="images/banner/banner2.png" alt=""></div>
+                <div class="image"><img src="images/banner/2.png" width="300" height="300" alt=""></div>
                 <div class="content">
-                    <h3 class="title">Home Decor<span class="number">16 items</span></h3>
+                    <h3 class="title">Classic<span class="number"></span></h3>
                 </div>
             </a>
         </div>
     </div>
+
     <div class="col-xxl-3 col-xl-4 col-md-6 col-12 learts-mb-30   item ">
         <div class="category-banner3">
             <a href="index.php" class="inner">
-                <div class="image"><img src="images/banner/banner3.png" alt=""></div>
+                <div class="image"><img src="images/banner/3.png" width="300" height="300" alt=""></div>
                 <div class="content">
-                    <h3 class="title">Gift Ideas<span class="number">16 items</span></h3>
+                    <h3 class="title">Classic<span class="number"></span></h3>
                 </div>
             </a>
         </div>
     </div>
-    <div class="col-xxl-3 col-xl-4 col-md-6 col-12 order-xxl-6 learts-mb-30 item">
-        <div class="instagram-banner1">
-            <div class="inner">
-                <div class="image"><img src="images/banner/banner4.png" alt=""></div>
-                <div class="content">
-                    <div class="icon">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                    <span class="sub-title">Follow us on instagram</span>
-                    <h3 class="title"><a href="index.php">@learts_store</a></h3>
+
+        <div class="col-xxl-3 col-xl-4 col-md-6 col-12 order-xxl-6 learts-mb-30 item">
+            <div class="instagram-banner1">
+                <div class="category-banner3">
+                    <a href="index.php" class="inner">
+                        <div class="image"><img src="images/banner/4.png" width="300" height="300" alt=""></div>
+                        <div class="content">
+                            <h3 class="title">Classic<span class="number"></span></h3>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-xxl-6 col-xl-8 col-12 learts-mb-30 item">
-        <div class="category-banner3">
-            <a href="index.php" class="inner">
-                <div class="image"><img src="images/banner/banner5.png" alt=""></div>
-                <div class="content">
-                    <h3 class="title">Toys<span class="number">6 items</span></h3>
-                </div>
-            </a>
-        </div>
-    </div>
 </header>
+
 <main class="container-fluid mt-3">
     <h3 class="text-center text-uppercase mb-3 text-primary">TOP LIKE </h3>
     <div class="row">
         <div class="col-sm-3">
             <div class="card mb-2" style="width: 100%;">
-                <img src="images/songs/cayvagio.jpg" class="card-img-top" alt="...">
+                <img src="images/Album/1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-center">
                         <a href="" class="text-decoration-none">AlBUM 1 </a>
@@ -165,7 +157,7 @@
 
         <div class="col-sm-3">
             <div class="card mb-2" style="width: 100%;">
-                <img src="images/songs/csmt.jpg" class="card-img-top" alt="...">
+                <img src="images/Album/2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-center">
                         <a href="" class="text-decoration-none">ALBUM 2</a>
@@ -176,7 +168,7 @@
 
         <div class="col-sm-3">
             <div class="card mb-2" style="width: 100%;">
-                <img src="images/songs//longme.jpg" class="card-img-top" alt="...">
+                <img src="images/Album/3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-center">
                         <a href="" class="text-decoration-none">ALBUM 3</a>
@@ -187,7 +179,7 @@
 
         <div class="col-sm-3">
             <div class="card mb-2" style="width: 100%;">
-                <img src="images/songs/phoipha.jpg" class="card-img-top" alt="...">
+                <img src="images/Album/4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-center">
                         <a href="" class="text-decoration-none">ALBUM 4</a>
@@ -196,17 +188,7 @@
             </div>
         </div>
 
-        <div class="col-sm-3">
-
-            <div class="card mb-2" style="width: 100%;">
-                <img src="images/songs/noitinhyeubatdau.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center my-title">
-                        <a href="" class="text-decoration-none">ALBUM 5</a>
-                    </h5>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </main>
 <footer class="bg-white d-flex justify-content-center align-items-center border-top border-secondary  border-2" style="height:80px">
