@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +38,7 @@
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Nội dung cần tìm" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit"> <img src="images/login.png" width="20" height="20"> </button>
+                    <button class="btn btn-outline-success" type="submit"> <img src="images/login.png" width="20" height="20" alt=""> </button>
 
                 </form>
             </div>
@@ -50,64 +49,30 @@
         <div class="header-buttons"></div>  </a>  <a href="#" class="btn-cart"><img src="images/shopping.png" width="30" height="30"></a>
         </div>
     </nav>
-</header>
-<main class="container-fluid mt-3">
-    <h3 class="text-center text-uppercase mb-3 text-primary"> SHOP </h3>
-    <div class="row">
-        <div class="col-sm-3">
-            <div class="card mb-2" style="width: 100%;">
-                <img src="images/Shop/1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">
-                        <a href="" class="text-decoration-none">AlBUM 1 </a>
 
-                </div>
-            </div>
+    <section>
+      <h2>Danh sách album</h2>
+      <div class="album">
+        <div>
+          <img src="https://images.unsplash.com/photo-1612191424342-57a551d56275?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80" alt="Album 1">
+          <h3>Album 1</h3>
         </div>
-
-        <div class="col-sm-3">
-            <div class="card mb-2" style="width: 100%;">
-                <img src="images/Shop/2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">
-                        <a href="" class="text-decoration-none">ALBUM 2</a>
-                    </h5>
-                </div>
-            </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80" alt="Album 2">
+          <h3>Album 2</h3>
         </div>
-
-        <div class="col-sm-3">
-            <div class="card mb-2" style="width: 100%;">
-                <img src="images/Shop/3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">
-                        <a href="" class="text-decoration-none">ALBUM 3</a>
-                    </h5>
-                </div>
-            </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1495127218755-aa587fd363b4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80" alt="Album 3">
+          <h3>Album 3</h3>
         </div>
-
-        <div class="col-sm-3">
-            <div class="card mb-2" style="width: 100%;">
-                <img src="images/Shop/4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">
-                        <a href="" class="text-decoration-none">ALBUM 4</a>
-                    </h5>
-                </div>
-            </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1546534483-4c4e7db04f24?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80" alt="Album 4">
+          <h3>Album 4</h3>
         </div>
-
-        <div class="col-sm-3">
-
-            <div class="card mb-2" style="width: 100%;">
-                <img src="images/Shop/5.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center my-title">
-                        <a href="" class="text-decoration-none">ALBUM 5  </a>
-                    </h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</main>
+      </div>
+    </section>
+    <footer>
+      <p>Bản quyền © 2023 Dự án âm nhạc</p>
+    </footer>
+  </body>
+</html>

@@ -29,7 +29,7 @@
                         <a class="nav-link active" aria-current="page" href="./shop.php">SHOP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./">PROJECT</a>
+                        <a class="nav-link active" aria-current="page" href="./project.php">PROJECT</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="./">ELEMENTS</a>
@@ -38,7 +38,7 @@
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Nội dung cần tìm" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit"> <img src="images/login.png" width="20" height="20"> </button>
+                    <button class="btn btn-outline-success" type="submit"> <img src="images/login.png" width="20" height="20" alt=""> </button>
 
                 </form>
             </div>
@@ -95,10 +95,10 @@
             </div>
         </div>
     </div>
-    <div class="col-xxl-3 col-xl-4 col-md-6 col-12 learts-mb-30   item ">
+    <div class="col-xxl-3 col-xl-4 col-md-6 col-12 learts-mb-30  item">
         <div class="category-banner3">
-            <a href="index.php" class="inner">
-                <div class="image"><img src="images/banner/1.png" width="300" height="300" alt=""></div>
+            <a href="./page/topic1.php" class="inner">
+                <div class="image"><img src="images/banner/2.png" width="300" height="300" alt=""></div>
                 <div class="content">
                     <h3 class="title">Classic<span class="number"></span></h3>
                 </div>
@@ -107,7 +107,7 @@
     </div>
     <div class="col-xxl-3 col-xl-4 col-md-6 col-12 learts-mb-30  item">
         <div class="category-banner3">
-            <a href="index.php" class="inner">
+            <a href="./page/topic2.php" class="inner">
                 <div class="image"><img src="images/banner/2.png" width="300" height="300" alt=""></div>
                 <div class="content">
                     <h3 class="title">Classic<span class="number"></span></h3>
@@ -118,7 +118,7 @@
 
     <div class="col-xxl-3 col-xl-4 col-md-6 col-12 learts-mb-30   item ">
         <div class="category-banner3">
-            <a href="index.php" class="inner">
+            <a href="./page/topic3.php" class="inner">
                 <div class="image"><img src="images/banner/3.png" width="300" height="300" alt=""></div>
                 <div class="content">
                     <h3 class="title">Classic<span class="number"></span></h3>
@@ -130,7 +130,7 @@
         <div class="col-xxl-3 col-xl-4 col-md-6 col-12 order-xxl-6 learts-mb-30 item">
             <div class="instagram-banner1">
                 <div class="category-banner3">
-                    <a href="index.php" class="inner">
+                    <a href="./page/topic4.php" class="inner">
                         <div class="image"><img src="images/banner/4.png" width="300" height="300" alt=""></div>
                         <div class="content">
                             <h3 class="title">Classic<span class="number"></span></h3>
@@ -192,7 +192,7 @@
     </div>
 </main>
 <footer class="bg-white d-flex justify-content-center align-items-center border-top border-secondary  border-2" style="height:80px">
-    <h4 class="text-center text-uppercase fw-bold">TLU's music garden</h4>
+    <h4 class="text-center text-uppercase fw-bold">t-e-x-t</h4>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
